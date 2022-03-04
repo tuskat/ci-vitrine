@@ -89,11 +89,12 @@ section {
 }
 
 .social-media-links {
-  width: 100%;
-  margin: auto;
+  margin: 0 auto;
+  width: auto;
+  max-width: 70rem;
+  padding: 2rem;
   text-align: center;
   background: rgba(0, 0, 0, 0.6);
-  padding-bottom: 1rem;
 }
 
 .social-media-links img {
