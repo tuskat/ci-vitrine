@@ -46,6 +46,11 @@ li {
   list-style: none;
 }
 
+p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-top: 0;
+}
 header img {
   width: 12rem;
   border-radius: 60%;
@@ -53,7 +58,7 @@ header img {
 }
 
 section {
-  padding: 2rem;
+  padding: 1rem;
   margin: 0 auto;
   width: auto;
   max-width: 70rem;
@@ -62,6 +67,10 @@ section {
 
 .centered-content {
   text-align: center;
+}
+
+.block {
+  margin-bottom: 3rem;
 }
 
 .costume {
@@ -94,7 +103,6 @@ section {
   max-width: 70rem;
   padding: 2rem;
   text-align: center;
-  background: rgba(0, 0, 0, 0.6);
 }
 
 .social-media-links img {
@@ -112,5 +120,30 @@ section {
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 3.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .compact {
+    width: 80%;
+    min-width: 30rem;
+    max-width: 70rem;
+    padding: 2rem;
+    margin: auto;
+  }
+
+  .block {
+    width: 80%;
+    margin: 0 auto 3rem;
+    text-align: left;
+  }
+  
+
+  .section {
+    padding: 2rem;
   }
 }
